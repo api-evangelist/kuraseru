@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of https://kuraseru.co.jp/.well-known/*
+host: https://kuraseru.co.jp
+notes: >-
+  KURASERU publishes a corporate marketing site only. No /.well-known/ discovery
+  documents are served; every probed path returns the site 404 page. No API,
+  developer, or documentation subdomain resolves (api., developer., docs., app.,
+  trust., status. kuraseru.co.jp all fail to resolve in DNS), so there is no
+  second host to probe. Recorded as an honest negative for re-run comparison.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

@@ -1,0 +1,44 @@
+# KURASERU, INC. (株式会社KURASERU / クラセル)
+
+> KURASERU is a Kobe-based Japanese technology company that builds digital-transformation (DX) software for the elderly-care industry. Founded in October 2017 by Taiki Kawahara — a former care worker and hospital medical social worker — the company's stated mission is "介護に関わる人がもっと輝く社会へ" (toward a society where people who work in care shine brighter): use technology to remove administrative burden from care work so caregivers can spend more of their time with the people they care for. The company operates in the DX-promotion and system-development space for care-related services.
+
+## Status in the API Evangelist network
+
+- KURASERU publishes **no public API**, no developer portal, no documentation site, and no SDKs.
+- No `/.well-known/` discovery documents are served, and no `api.`, `developer.`, `docs.`, or `status.` subdomain resolves.
+- This profile is therefore a **company profile**, not an API profile. It is tracked because KURASERU is a 500 Global portfolio company operating in Japanese elder-care technology, a sector where care-record and facility-matching interoperability is an emerging API concern.
+- If KURASERU later exposes a partner or public API, the enrichment pipeline will pick it up on re-run.
+
+## Company
+
+- [Company site](https://kuraseru.co.jp): corporate site (Japanese), Astro-built single-page profile.
+- [Company profile 会社概要](https://kuraseru.co.jp/#company): incorporation, capital, address, representative.
+- [News archive](https://kuraseru.co.jp/news): dated company announcements and speaking appearances.
+- [Contact](https://kuraseru.co.jp/contact): inquiry form, 24/7 intake; phone 050-3145-8290 (09:00–19:00 JST, weekdays).
+- [Recruiting](https://open.talentio.com/r/1/c/kuraseru/homes/2007): hiring, hosted on Talentio.
+
+## Facts
+
+- Legal name: 株式会社KURASERU (KURASERU, INC.)
+- Founded: 2017-10-02
+- Capital: ¥100,000,000 (including capital reserve)
+- Headquarters: KiP, 56 Naniwacho, Chuo-ku, Kobe, Hyogo 650-0035, Japan
+- Representative: 川原 大樹 (Taiki Kawahara), 代表取締役
+- Employees: 7 including part-time (as of February 2023)
+- Business: 介護関連サービスのDX推進事業 (DX promotion for care-related services); システム開発 (system development)
+- Backed by: 500 Global
+
+## Governance and security
+
+- [Information Security Policy 情報セキュリティ方針](https://kuraseru.co.jp/security): established 2019-08-01; ISMS with risk assessment, audit, incident response, and business continuity.
+- ISO/IEC 27001 certified — registration IS 716039 (ISMS mark displayed site-wide).
+- [Privacy Policy 個人情報保護方針](https://kuraseru.co.jp/privacypolicy)
+- [Handling of Personal Information 個人情報の取扱いについて](https://kuraseru.co.jp/privacyhandle)
+- No vulnerability disclosure policy, bug bounty, or security.txt is published.
+
+## Repository artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/heads/main/apis.yml): the APIs.json profile for this company.
+- [security/kuraseru-domain-security.yml](https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/heads/main/security/kuraseru-domain-security.yml): probed TLS, HSTS, DNSSEC, SPF, and DMARC posture.
+- [security/kuraseru-trust-center.yml](https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/heads/main/security/kuraseru-trust-center.yml): published security policy and ISO 27001 certification.
+- [well-known/kuraseru-well-known.yml](https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/heads/main/well-known/kuraseru-well-known.yml): recorded (empty) /.well-known/ discovery surface.
