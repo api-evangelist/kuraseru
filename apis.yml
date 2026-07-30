@@ -1,7 +1,27 @@
 aid: kuraseru
 name: Kuraseru
-description: Kuraseru is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'KURASERU, INC. (株式会社KURASERU) is a Kobe-based Japanese technology company
+  building digital-transformation software for the elderly-care industry. Founded in
+  October 2017 by Taiki Kawahara, a former care worker and hospital medical social worker,
+  the company describes its business as DX promotion for care-related services and system
+  development. Its stated mission is to use technology to lift the administrative burden
+  off care work so that caregivers can spend more of their time with the people they care
+  for, addressing Japan''s super-aging society, chronic caregiver shortages, and high
+  turnover. KURASERU is ISO/IEC 27001 certified (IS 716039) and is backed by 500 Global.
+  As of this enrichment pass the company publishes no public API, developer portal, SDKs,
+  or documentation surface, so this is a company profile rather than an API profile.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kuraseru.co.jp/images/ogp.png
 url: https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health Care
+- Elder Care
+- Nursing Care
+- Long Term Care
+- Digital Transformation
+- System Development
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://kuraseru.co.jp
+- type: Blog
+  url: https://kuraseru.co.jp/news
+- type: Support
+  url: https://kuraseru.co.jp/contact
+- type: PrivacyPolicy
+  url: https://kuraseru.co.jp/privacypolicy
+- type: Compliance
+  url: https://kuraseru.co.jp/security
+- type: Careers
+  url: https://open.talentio.com/r/1/c/kuraseru/homes/2007
+- type: TrustCenter
+  url: security/kuraseru-trust-center.yml
+- type: DomainSecurity
+  url: security/kuraseru-domain-security.yml
+- type: LLMsTxt
+  url: llms/kuraseru-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
