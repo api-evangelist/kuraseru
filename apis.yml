@@ -10,6 +10,17 @@ description: 'KURASERU, INC. (株式会社KURASERU) is a Kobe-based Japanese tec
   turnover. KURASERU is ISO/IEC 27001 certified (IS 716039) and is backed by 500 Global.
   As of this enrichment pass the company publishes no public API, developer portal, SDKs,
   or documentation surface, so this is a company profile rather than an API profile.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
